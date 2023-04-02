@@ -15,8 +15,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className}`}>
-        <nav>
+      <body className={`${montserrat.className} mx-32 my-12`}>
+        {/* <nav>
           <h1>logo</h1>
           <ul>
             <li>
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
               <a href="/">Home</a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
         {children}
       </body>
     </html>
